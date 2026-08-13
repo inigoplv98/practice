@@ -1,0 +1,1 @@
+Object.assign(SPECIES_MAPS,{"Nilgai":[R[12]]});
