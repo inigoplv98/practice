@@ -1,0 +1,1 @@
+document.write('<script src="data-6b1.js"><\/script><script src="data-6b2.js"><\/script>');
