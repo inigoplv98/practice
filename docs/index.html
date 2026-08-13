@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0f0c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="COTW Tracker">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<title>COTW Grind Tracker</title>
+</head>
+<body>
+<section id="home" class="page">
+<header><div class="wrap"><h1 class="title">COTW Grind Tracker</h1><div class="subtitle">127 especies · selecciona una para empezar</div><input id="search" class="search" placeholder="Buscar especie…" autocomplete="off"></div></header>
+<main id="speciesGrid" class="grid"></main>
+</section>
+<section id="detail" class="page hidden">
+<header><div class="wrap"><button id="back" class="back">← Especies</button><h2 id="detailName" class="detailName"></h2><div class="mapLabel">MAPA / RESERVA</div><select id="mapSelect" class="mapSelect"></select></div></header>
+<main class="counterArea"><div class="killLabel">KILLS EN ESTE GRIND</div><div id="killCount" class="killCount">0</div><button id="plus" class="plus">+1 KILL</button><div class="correct"><button id="minus">−1 Corregir</button><button id="reset" class="reset">Reset</button></div><div class="mapTotal">Total de <strong id="speciesNameBottom"></strong> en todos tus mapas: <strong id="allMapsTotal">0</strong></div></main>
+</section>
+<script>const SPECIES_MAPS={};</script>
+<script src="data-1.js"></script><script src="data-2.js"></script><script src="data-3.js"></script><script src="data-4.js"></script><script src="data-5.js"></script><script src="data-6.js"></script><script src="app.js"></script>
+</body></html>
